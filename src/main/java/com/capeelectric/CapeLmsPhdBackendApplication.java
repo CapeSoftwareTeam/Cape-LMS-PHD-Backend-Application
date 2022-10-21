@@ -1,4 +1,4 @@
-package com.capeelectic;
+package com.capeelectric;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -7,7 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class CapeLmsPhdBackendApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(CapeLmsPhdBackendApplication.class, args);
+		SpringApplication.run(CapeLmsBackendPhdApplication.class, args);
 	}
 
 }

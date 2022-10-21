@@ -8,11 +8,11 @@
 		<version>2.7.4</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.capeelectic</groupId>
-	<artifactId>Cape-LMS-PHD-Backend-Application</artifactId>
+	<groupId>com.capeelectric</groupId>
+	<artifactId>Cape-LMS-Backend-PHD-Application</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>Cape-LMS-PHD-Backend-Application</name>
-	<description>Public Holidays</description>
+	<name>Cape-LMS-Backend-PHD-Application</name>
+	<description>public holidays application</description>
 	<properties>
 		<java.version>1.8</java.version>
 	</properties>
