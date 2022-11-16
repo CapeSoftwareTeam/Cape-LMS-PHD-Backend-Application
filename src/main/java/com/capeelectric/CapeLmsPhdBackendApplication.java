@@ -7,7 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class CapeLmsPhdBackendApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(CapeLmsBackendPhdApplication.class, args);
+		SpringApplication.run(CapeLmsPhdBackendApplication.class, args);
 	}
 
 }

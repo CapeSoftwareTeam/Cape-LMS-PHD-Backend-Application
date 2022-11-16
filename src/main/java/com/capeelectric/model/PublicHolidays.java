@@ -4,6 +4,8 @@ import java.util.Date;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
@@ -14,10 +16,14 @@ public class PublicHolidays {
 	
 	@Id
 	@Column(name="PL_ID")
+	@GeneratedValue(strategy = GenerationType.AUTO)
 	private Integer publicLeaveId;
 	
 	@Column(name="DATE")
 	private Date date;
+	
+	@Column(name="DESCRIPTION")
+	private String description;
 	
 	@Column(name="DAY")
 	private String day;
@@ -68,6 +74,14 @@ public class PublicHolidays {
 
 	public void setWorkLocation(String workLocation) {
 		this.workLocation = workLocation;
+	}
+
+	public String getDescription() {
+		return description;
+	}
+
+	public void setDescription(String description) {
+		this.description = description;
 	}
 
 }
